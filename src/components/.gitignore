@@ -1,0 +1,245 @@
+<section class="bg-white border-b">
+      <div
+        class="container mx-auto p-6 md:p-12 grid md:grid-cols-2 gap-4 md:gap-8">
+        <div
+          class="text-lg text-gray-700 leading-relaxed flex flex-col
+          justify-center">
+          <h3
+            class="mb-2 md:mb-4 text-2xl md:text-4xl text-gray-800 font-semibold
+            leading-snug font-ubuntu">
+            Everything at a glance
+          </h3>
+          <ul
+            class="mb-2 md:mb-4 flex flex-wrap justify-start text-lg
+            text-gray-700">
+            <li class="mb-2 mr-8 flex items-center">
+              <span class="mr-3 text-indigo-600">
+                <svg
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  class="h-6">
+                  <path
+                    d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343
+                    2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0
+                    0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0
+                    0118 0z" />
+                </svg>
+              </span>
+              Salary
+            </li>
+            <li class="mb-2 mr-8 flex items-center">
+              <span class="mr-3 text-indigo-600">
+                <svg
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  class="h-6">
+                  <path
+                    d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8
+                    3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2
+                    0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0
+                    11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </span>
+              Location
+            </li>
+            <li class="mb-2 mr-8 flex items-center">
+              <span class="mr-3 text-indigo-600">
+                <svg
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  class="h-6">
+                  <path
+                    d="M21 13.255A23.931 23.931 0 0112 15c-3.183
+                    0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4
+                    6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2
+                    2 0 002 2z" />
+                </svg>
+              </span>
+              Company Summary
+            </li>
+          </ul>
+          <p class="mb-2 md:mb-4">
+            Build a lead profile with all the specifics you care about;
+            <span class="text-indigo-600 font-medium">Job details</span>
+            ,
+            <span class="text-indigo-600 font-medium">documents</span>
+            ,
+            <span class="text-indigo-600 font-medium">contacts</span>
+            , and
+            <span class="text-indigo-600 font-medium">notes</span>
+            .
+          </p>
+          <p class="mb-2 md:mb-4 font-semibold">
+            No more digging around looking for job descriptions
+          </p>
+          <p class="mb-2">
+            Import the job description so you can quickly reference it whenever
+            you need a refresh.
+          </p>
+        </div>
+        <div class="w-full">
+          <img
+            alt=""
+            src="https://jobhuntbuddy.co/images/landing/lead_modal.png"
+            class="w-full" />
+        </div>
+      </div>
+    </section>
+    <section class="border-b">
+      <div
+        class="container mx-auto p-6 md:p-12 grid md:grid-cols-2 gap-4 md:gap-8">
+        <div class="w-full row-start-2 md:row-start-1">
+          <img
+            alt=""
+            src="https://jobhuntbuddy.co/images/landing/discover-min.png"
+            class="w-full" />
+        </div>
+        <div
+          class="text-lg text-gray-700 leading-relaxed flex flex-col
+          justify-center">
+          <h3
+            class="mb-2 md:mb-4 text-2xl md:text-4xl text-gray-800 font-semibold
+            leading-snug font-ubuntu">
+            Find the right person to contact
+          </h3>
+          <p class="mb-2 md:mb-4">
+            It helps to know who's going to be looking at your application.
+          </p>
+          <p class="mb-2 md:mb-4 font-semibold">Not sure who to contact?</p>
+          <p class="mb-2">
+            We'll help you
+            <span class="text-indigo-600 font-medium">
+              discover names and emails
+            </span>
+            from the company you're applying to.
+          </p>
+          <p class="mb-2 md:mb-4 font-semibold">
+            Know who to contact, but don't have their email address?
+          </p>
+          <p class="mb-2">We have you covered there too!</p>
+        </div>
+      </div>
+    </section>
+    <section class="bg-white border-b">
+      <div
+        class="container mx-auto p-6 md:p-12 grid md:grid-cols-2 gap-4 md:gap-8">
+        <div
+          class="text-lg text-gray-700 leading-relaxed flex flex-col
+          justify-center">
+          <h3
+            class="mb-2 md:mb-4 text-2xl md:text-4xl text-gray-800 font-semibold
+            leading-snug font-ubuntu">
+            Never forget to follow up on an application again
+          </h3>
+          <p class="mb-2">
+            Create
+            <span class="text-indigo-600 font-semibold">tasks</span>
+            and
+            <span class="text-indigo-600 font-semibold">reminders</span>
+            to keep yourself on top of everything that needs to be done to land
+            that job.
+          </p>
+          <p class="mb-2 md:mb-4 font-semibold">
+            What do you need to do today to land that job?
+          </p>
+          <ul class="text-lg text-gray-700">
+            <li class="flex items-start mb-2">
+              <span class="mr-3 text-indigo-600">
+                <svg fill="currentColor" viewBox="0 0 20 20" class="h-6">
+                  <path
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0
+                    00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2
+                    2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                    fill-rule="evenodd" />
+                </svg>
+              </span>
+              Apply for 3 jobs today
+            </li>
+            <li class="flex items-start mb-2">
+              <span class="mr-3 text-indigo-600">
+                <svg fill="currentColor" viewBox="0 0 20 20" class="h-6">
+                  <path
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0
+                    00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2
+                    2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                    fill-rule="evenodd" />
+                </svg>
+              </span>
+              Follow up with your last application
+            </li>
+            <li class="flex items-start mb-2">
+              <span class="mr-3 text-indigo-600">
+                <svg fill="currentColor" viewBox="0 0 20 20" class="h-6">
+                  <path
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0
+                    00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2
+                    2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                    fill-rule="evenodd" />
+                </svg>
+              </span>
+              Finish writing your cover letter
+            </li>
+          </ul>
+        </div>
+        <div class="w-full">
+          <img
+            alt=""
+            src="https://jobhuntbuddy.co/images/landing/tasks-min.png"
+            class="w-full" />
+        </div>
+      </div>
+    </section>
+    <section>
+      <div
+        class="container mx-auto p-6 md:p-12 grid md:grid-cols-2 gap-4 md:gap-8">
+        <div class="w-full row-start-2 md:row-start-1">
+          <img
+            alt=""
+            src="https://jobhuntbuddy.co/images/landing/document-list-min.png"
+            class="w-full shadow-md" />
+        </div>
+        <div
+          class="text-lg text-gray-700 leading-relaxed flex flex-col
+          justify-center">
+          <h3
+            class="mb-2 md:mb-4 text-2xl md:text-4xl text-gray-800 font-semibold
+            leading-snug font-ubuntu">
+            Keep all of your documents in one place
+          </h3>
+          <p class="mb-2 md:mb-4">
+            Quickly access all of your
+            <span class="text-indigo-600 font-semibold">resumes</span>
+            and
+            <span class="text-indigo-600 font-semibold">cover letters</span>
+            . Download them from anywhere or share them with employers.
+          </p>
+          <p class="mb-2 md:mb-4">
+            <span class="text-indigo-600 font-semibold">
+              Link your documents to a lead
+            </span>
+            to easily reference them whenever you need.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+
+    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0
+                00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0
+                000-7.78z"></path></svg>
