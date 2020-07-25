@@ -1,3 +1,5 @@
+@import "smelte/src/tailwind" ;
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

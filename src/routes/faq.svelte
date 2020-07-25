@@ -1,3 +1,7 @@
+<script>
+  import Button from "smelte/src/components/Button";
+</script>
+
 <svelte:head>
   <title>Faq</title>
 </svelte:head>

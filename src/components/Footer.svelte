@@ -2,7 +2,7 @@
 
 </style>
 
-<footer style="position:abosute;" class="bg-gray-900 align-bottom">
+<footer style="position:abosute;" class="bg-gray-800 align-bottom">
   <div class="container mx-auto py-10 px-8">
     <div class="w-full flex flex-col md:flex-row py-6">
       <div class="w-full lg:w-1/3 mb-6 pr-12">
@@ -17,7 +17,7 @@
         <ul class="mt-6 flex items-center">
           <li class="inline-block mr-6">
             <a
-              href="https://facebook.com/EyaloGroupOfficiel/"
+              href="https://facebook.com/EyaloGroup/"
               target="_blank"
               aria-label="Facebook"
               class="text-gray-400 facebook-btn">

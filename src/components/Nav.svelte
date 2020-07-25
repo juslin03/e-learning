@@ -1,10 +1,14 @@
 <script>
   import Stars from "./Common/Stars.svelte";
+  import Menu from "smelte/src/components/Menu";
+  import Button from "smelte/src/components/Button";
   export let segment;
   let hover = false;
   $: isHovered = function() {
     hover = !hover;
   };
+
+  let slug = "informatique";
 </script>
 
 <style>
@@ -15,12 +19,12 @@
 
 <div
   style="z-index: 9999"
-  class="shadow-sm sticky py-10 flex bg-white border-b border-gray-200 fixed
-  top-0 inset-x-0 z-100 h-16 items-center">
+  class="shadow-sm sticky py-10 flex bg-white border-b border-gray-200 top-0
+  inset-x-0 z-100 h-16 items-center">
   <div class="w-full max-w-screen-xl relative mx-auto px-6">
     <div class="flex items-center -mx-6">
       <div class="lg:w-1/4 xl:w-1/5 pl-6 pr-6 lg:pr-8">
-        <div class="flex items-center block">
+        <div class="flex items-center">
           <a href="." class="flex">
             <svg
               class="fill-current h-8 w-8 mr-2"
@@ -260,18 +264,20 @@
                     c0.22,0,0.4-0.182,0.4-0.4V13H6.752C5.602,13,5.578,12.449,6.547,12.172z" />
                 </svg>
                 <span
-                  class="badge bg-red-800 rounded-full px-2 py-1
-                  text-center relative text-white text-xs mr-1">
+                  class="badge bg-red-800 rounded-full px-2 py-1 text-center
+                  relative text-white text-xs mr-1">
                   1
                 </span>
               </button>
               <div
                 style="z-index: 999999;"
-                class="dropdown-menu right-0 -ml-20 flex items-start absolute
-                hidden mt-0 absolute py-2 w-128 bg-white rounded-lg shadow-xl">
+                class="dropdown-menu right-0 -ml-20 flex items-start hidden mt-0
+                absolute py-2 w-128 bg-white rounded-lg shadow-xl">
                 <ul>
                   <li>
-                    <a href="." class="block px-4 py-2 text-gray-500">
+                    <a
+                      href="courses/{slug}"
+                      class="block px-4 py-2 text-gray-500">
                       <div class="flex items-start px-4 py-6 border-b">
                         <img
                           class="w-20 h-20 object-cover mr-4 shadow"
@@ -290,13 +296,12 @@
                           </p>
                           <div class="mt-1 flex items-center">
                             <div
-                              class="flex mr-2 text-red-800 font-bold text-sm
-                              mr-3">
+                              class="flex mr-3 text-red-800 font-bold text-sm">
                               <span>1250 FCFA (XOF)</span>
                             </div>
                             <!-- <span>au lieu de </span> -->
                             <div
-                              class="flex mr-2 text-gray-700 text-xs
+                              class="flex text-gray-700 text-xs
                               line-through mr-8">
                               <span>1500 FCFA (XOF)</span>
                             </div>
@@ -312,14 +317,21 @@
                       Total: 1250 FCFA (XOF)
                     </span>
                   </div>
-                  <a
+                  <Button
+                    classes="rounded-full px-3 py-4 mt-3"
+                    color="alert"
+                    dark
+                    rounded>
+                    Allez au panier
+                  </Button>
+                  <!-- <a
                     href="courses/produit"
                     class="mb-3 flex-shrink-0 bg-orange-500 hover:bg-orange-600
                     text-base md:text-xl text-orange-100 font-semibold
                     rounded-full py-2 md:py-3 px-5 md:px-8 shadow
                     hover:shadow-lg transition-colors ease-in-out duration-200">
                     Allez au panier
-                  </a>
+                  </a> -->
                 </div>
               </div>
             </div>
