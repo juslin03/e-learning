@@ -1,6 +1,7 @@
 <script>
   import Header from "../components/Header.svelte";
   import Subscribe from "../components/Contact/Subscribe.svelte";
+  import Testimony from "../components/Community/Testimony.svelte";
   import Stars from "../components/Common/Stars.svelte";
   import Courses from "../components/Courses/Courses.svelte";
 </script>
@@ -139,5 +140,6 @@
       </g>
     </g>
   </svg>
+  <Testimony />
   <Subscribe />
 </div>

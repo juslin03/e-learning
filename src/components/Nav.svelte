@@ -317,21 +317,21 @@
                       Total: 1250 FCFA (XOF)
                     </span>
                   </div>
-                  <Button
+                  <!-- <Button
                     classes="rounded-full px-3 py-4 mt-3"
                     color="alert"
                     dark
                     rounded>
                     Allez au panier
-                  </Button>
-                  <!-- <a
+                  </Button> -->
+                  <a
                     href="courses/produit"
                     class="mb-3 flex-shrink-0 bg-orange-500 hover:bg-orange-600
                     text-base md:text-xl text-orange-100 font-semibold
                     rounded-full py-2 md:py-3 px-5 md:px-8 shadow
                     hover:shadow-lg transition-colors ease-in-out duration-200">
                     Allez au panier
-                  </a> -->
+                  </a>
                 </div>
               </div>
             </div>
